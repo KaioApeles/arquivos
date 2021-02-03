@@ -34,7 +34,7 @@ export default class Calculator extends Component{
     }
 
     setOperation(operation){
-        console.log('huhu');
+        console.log('huhu aaaa');
         if( this.state.current === 0 ){
             this.setState({ operation, current: 1, clearDisplay: true})
         } else {
